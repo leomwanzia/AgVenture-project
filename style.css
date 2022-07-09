@@ -48,14 +48,6 @@ a.active,a:hover{
     transition: .5s;
 }
 
-.bget#get{
-    float: right;
-    background-color: blue;
-    height: 30px;
-    width: 70%;
-    font-size: large;
-}
-
 .checkbtn{
     font-size: 30px;
     color: white;
@@ -67,4 +59,14 @@ a.active,a:hover{
 
 #check{
     display: none;
+}
+
+@media (max-width: 953px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
 }
