@@ -360,6 +360,7 @@ body{
     font-size: xx-large;
     margin-top: 70px;
     margin-bottom: 100px;
+    padding-left: 30px;
 }
 
 .name{
@@ -394,4 +395,30 @@ body{
 
 .person-name {
     font-size: 24px;
+}
+
+#read{
+    width: 200px;
+    height: 80px;
+    color: white;
+    border: none;
+    background-color: #f36320;
+    border-radius: 4px;
+    box-shadow: inset 300px 0 0 0 0 rgb(65, 87, 22);
+    transition: ease-out 0.3s;
+    font-size: 1.6rem;
+    outline: none;
+    margin-top: 70px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 100px;
+    margin-top: 1px;
+    margin-right: 100px;
+    float: right;
+}
+
+#read:hover{
+    box-shadow: inset 300px 0 0 0 rgb(158, 138, 25);
+    cursor: pointer;
+    color: #000;
 }
