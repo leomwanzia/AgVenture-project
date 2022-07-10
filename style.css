@@ -308,3 +308,25 @@ body{
     text-decoration: dotted;
     color: #be5f33;
 }
+
+.see{
+    width: 200px;
+    height: 80px;
+    border: none;
+    color: white;
+    background-color: #f36320;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(65, 87, 22);
+    transition: ease-out 0.3s;
+    font-size: 1.6rem;
+    outline: none;
+    margin-top: 70px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.see:hover{
+    box-shadow: inset 300px 0 0 0 rgb(158, 138, 25);
+    cursor: pointer;
+    color: #000;
+}
