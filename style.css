@@ -116,9 +116,13 @@ a.active,a:hover{
     color: black;
     padding-top: 8%;
     padding-left: 4%;
-    background-image: url(./images/image\ 1.png);
-    background-repeat: no-repeat;
+    background-image: url(/images/image\ 1.png);
     background-size: contain;
+    background-repeat: no-repeat;
+    
+    width: 200px;
+    height: 100vh;
+
 }
 
 #order{
@@ -195,7 +199,7 @@ body{
     margin-right: 50px;
     padding-top: 0px;
     font-weight: 800;
-    font-size: xxx-large;
+    font-size: xx-large;
     margin-left: 50px;
     margin-bottom: 50px;
 }
