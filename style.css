@@ -481,3 +481,65 @@ body{
 .sub-box button:hover{
     background: #be5f33;
 }
+
+.fa {
+    padding: 20px;
+}
+
+.social{
+    font-weight: 600;
+    font-size: xxx-large;
+    color: white;
+    margin-bottom: 100px;
+    background-color: #000;
+}
+
+.fa{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    margin: 0 5px;
+    background: #ffff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+    size: 100px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+    padding-top: 3px;
+    padding-left: 13px;
+}
+
+.fa.button:hover{
+    width: 200px;
+
+}
+
+.fa.button.icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    text-size-adjust: 100px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+
+.agri-plus{
+    font-size: xx-large;
+    color: white;
+    background-color: #000;
+    font-weight: 400;
+}
+
+#agri{
+    margin-left: 30px;
+}
+
+#quality{
+    margin-left: 30px;
+}
+
