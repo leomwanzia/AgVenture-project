@@ -229,7 +229,8 @@ body{
     display: inline-block;
     padding-bottom: 1rem;
     position: relative;
-    margin-left: 500px;
+    margin-left: 600px;
+    text-align: center;
 }
 
 .categories::before{
@@ -242,4 +243,16 @@ body{
     background-color:#f36320;
     justify-content: center;
     align-items: center;
+    height: 5px;
+}
+
+.satisfaction{
+    font-size: xx-large;
+    padding-top: 45px;
+}
+
+#satisfaction{
+    text-align: center;
+    text-decoration: none;
+    text-indent: 30px;
 }
