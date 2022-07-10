@@ -116,7 +116,7 @@ a.active,a:hover{
     color: black;
     padding-top: 8%;
     padding-left: 4%;
-    background-image: url(/images/image\ 1.png);
+    background-image: url(./images/image\ 1.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-size: cover;
@@ -255,4 +255,56 @@ body{
     text-align: center;
     text-decoration: none;
     text-indent: 30px;
+}
+
+.popular{
+    font-size: large;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    gap: 60px;
+}
+
+#kinyanjui{
+    margin-top: 10px;
+}
+
+#cereals{
+    margin-top: 10px;
+}
+
+#otieno{
+    margin-top: 10px;
+}
+
+#njoki{
+    margin-top: 10px;
+}
+
+.most{
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-left: 8%;
+    text-decoration: dotted;
+    color: #be5f33;
+}
+
+.new{
+    font-size: large;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    gap: 60px;
+}
+
+.newest{
+    font-size: xx-large;
+    margin-top: 80px;
+    margin-left: 8%;
+    text-decoration: dotted;
+    color: #be5f33;
 }
