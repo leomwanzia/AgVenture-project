@@ -561,3 +561,29 @@ body{
     font-size: xx-large;
     padding-bottom: 100px;
 }
+
+#otherbtn{
+    width: 200px;
+    height: 80px;
+    color: white;
+    border: none;
+    background-color: #776228;
+    border-radius: 4px;
+    box-shadow: inset 300px 0 0 0 0 rgb(65, 87, 22);
+    transition: ease-out 0.3s;
+    font-size: 1.6rem;
+    outline: none;
+    margin-top: 70px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    margin-right: 100px;
+
+}
+
+#otherbtn:hover{
+    box-shadow: inset 300px 0 0 0  #f36320;
+    cursor: pointer;
+    color: #000;
+}
