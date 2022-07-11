@@ -509,8 +509,8 @@ body{
     size: 100px;
     margin-top: 20px;
     margin-left: 50px;
-    padding-top: 1px;
-    padding-left: 13px;
+    padding-top: 9px;
+    padding-left: 15.5px;
     margin-bottom: 50px;
 }
 
@@ -527,7 +527,7 @@ body{
     text-size-adjust: 100px;
     border-radius: 50px;
     box-sizing: border-box;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 .agri-plus{
