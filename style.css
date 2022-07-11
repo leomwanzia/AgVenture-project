@@ -473,7 +473,7 @@ body{
     padding: 15px 20px;
     font-size: 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
     background: #000;
     cursor: pointer;
     transition: .3s;
@@ -492,7 +492,7 @@ body{
     font-weight: 600;
     font-size: xxx-large;
     color: white;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     background-color: #000;
 }
 
@@ -508,10 +508,10 @@ body{
     transition: all 0.3s ease-out;
     size: 100px;
     margin-top: 20px;
-    margin-bottom: 200px;
     margin-left: 50px;
     padding-top: 1px;
     padding-left: 13px;
+    margin-bottom: 50px;
 }
 
 .fa.button:hover{
@@ -536,6 +536,8 @@ body{
     background-color: #000;
     font-weight: 400;
     padding-top: 50px;
+    
+    flex-direction: column;
 }
 
 #agri{
@@ -546,3 +548,16 @@ body{
     margin-left: 30px;
 }
 
+
+.footer{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background: #000;
+    margin-top: 1px;
+    margin-top: -30px;
+    padding-top: 50px;
+    font-size: xx-large;
+    padding-bottom: 100px;
+}
