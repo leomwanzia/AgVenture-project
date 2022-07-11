@@ -336,14 +336,15 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 2px;
+    height: 1px;
     background-color:#f7f4f1;
     justify-content: center;
     align-items: center;
     height: 20px;
     border-radius: 4px;
     margin-top: 10px;
-    box-shadow: inset grey 5px 5px 5px 5px;
+    box-shadow: inset grey 5px 5px 5px ;
+    
 }
 
 .efficient{
@@ -378,6 +379,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .card-title {
@@ -459,10 +461,10 @@ body{
     font-size: xx-large;
     border-radius: 10px;
     color: rgb(24, 22, 22);
-    padding: 15px 15px;
     border: none;
     outline: none;
     background: white;
+
 
 }
 
@@ -505,10 +507,10 @@ body{
     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease-out;
     size: 100px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 200px;
     margin-left: 50px;
-    padding-top: 3px;
+    padding-top: 1px;
     padding-left: 13px;
 }
 
@@ -533,6 +535,7 @@ body{
     color: white;
     background-color: #000;
     font-weight: 400;
+    padding-top: 50px;
 }
 
 #agri{
