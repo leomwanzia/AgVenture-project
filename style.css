@@ -48,7 +48,7 @@ nav ul li a{
 
 a.active,a:hover{
     background-color: #f36320;
-    transition: .5s;
+    transition: .3s;
 }
 
 .checkbtn{
@@ -332,7 +332,7 @@ body{
 }
 
 .line{
-    content: "";
+    
     left: 0;
     bottom: 0;
     width: 100%;
@@ -340,10 +340,9 @@ body{
     background-color:#f7f4f1;
     justify-content: center;
     align-items: center;
-    height: 20px;
     border-radius: 4px;
-    margin-top: 10px;
-    box-shadow: inset grey 5px 5px 5px ;
+    margin-top: 2px;
+    box-shadow: grey 5px 5px 5px ;
     
 }
 
