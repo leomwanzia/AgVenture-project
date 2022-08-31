@@ -398,6 +398,179 @@ body{
     color: #BDAA3D;;
 }
 
+.carrots{
+    cursor: pointer;
+    box-shadow:
+  5.6px 3.5px 1.6px rgba(0, 0, 0, 0.035),
+  10.7px 6.7px 3.8px rgba(0, 0, 0, 0.049),
+  15.6px 9.7px 7.1px rgba(0, 0, 0, 0.057),
+  21.4px 13.3px 12.7px rgba(0, 0, 0, 0.062),
+  31.6px 19.7px 23.8px rgba(0, 0, 0, 0.067),
+  85px 53px 57px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  padding-left: 2%;
+  padding-bottom: 1%;
+  transition: 1s;
+}
+
+.carrots:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(-0.1deg);
+}
+
+.cereals{
+    cursor: pointer;
+    box-shadow:
+  5.6px 3.5px 1.6px rgba(0, 0, 0, 0.035),
+  10.7px 6.7px 3.8px rgba(0, 0, 0, 0.049),
+  15.6px 9.7px 7.1px rgba(0, 0, 0, 0.057),
+  21.4px 13.3px 12.7px rgba(0, 0, 0, 0.062),
+  31.6px 19.7px 23.8px rgba(0, 0, 0, 0.067),
+  85px 53px 57px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  padding-left: 2%;
+  padding-bottom: 1%;
+  transition: 1s;
+}
+
+.cereals:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(-0.1deg);
+}
+
+.fish{
+    cursor: pointer;
+    box-shadow:
+  5.6px 3.5px 1.6px rgba(0, 0, 0, 0.035),
+  10.7px 6.7px 3.8px rgba(0, 0, 0, 0.049),
+  15.6px 9.7px 7.1px rgba(0, 0, 0, 0.057),
+  21.4px 13.3px 12.7px rgba(0, 0, 0, 0.062),
+  31.6px 19.7px 23.8px rgba(0, 0, 0, 0.067),
+  85px 53px 57px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  padding-left: 2%;
+  padding-bottom: 1%;
+  transition: 1s;
+}
+
+.fish:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(-0.1deg);
+}
+
+.kales{
+    cursor: pointer;
+    box-shadow:
+  5.6px 3.5px 1.6px rgba(0, 0, 0, 0.035),
+  10.7px 6.7px 3.8px rgba(0, 0, 0, 0.049),
+  15.6px 9.7px 7.1px rgba(0, 0, 0, 0.057),
+  21.4px 13.3px 12.7px rgba(0, 0, 0, 0.062),
+  31.6px 19.7px 23.8px rgba(0, 0, 0, 0.067),
+  85px 53px 57px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  padding-left: 2%;
+  padding-bottom: 1%;
+  transition: 1s;
+}
+
+.kales:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(-0.1deg);
+}
+
+.poultry{
+    cursor: pointer;
+    box-shadow:
+  5.6px 3.5px 1.6px rgba(0, 0, 0, 0.035),
+  10.7px 6.7px 3.8px rgba(0, 0, 0, 0.049),
+  15.6px 9.7px 7.1px rgba(0, 0, 0, 0.057),
+  21.4px 13.3px 12.7px rgba(0, 0, 0, 0.062),
+  31.6px 19.7px 23.8px rgba(0, 0, 0, 0.067),
+  85px 53px 57px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  padding-left: 2%;
+  margin-bottom: 0%;
+  transition: 1s;
+  padding: 0;
+  margin: 0;
+}
+
+.poultry:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(-0.1deg);
+}
+
+.rice{
+    cursor: pointer;
+    box-shadow:
+  5.6px 3.5px 1.6px rgba(0, 0, 0, 0.035),
+  10.7px 6.7px 3.8px rgba(0, 0, 0, 0.049),
+  15.6px 9.7px 7.1px rgba(0, 0, 0, 0.057),
+  21.4px 13.3px 12.7px rgba(0, 0, 0, 0.062),
+  31.6px 19.7px 23.8px rgba(0, 0, 0, 0.067),
+  85px 53px 57px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  padding-left: 2%;
+  margin-bottom: 0%;
+  transition: 1s;
+  padding: 0;
+  margin: 0;
+}
+
+.rice:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(-0.1deg);
+}
+
+.milk{
+    cursor: pointer;
+    box-shadow:
+  5.6px 3.5px 1.6px rgba(0, 0, 0, 0.035),
+  10.7px 6.7px 3.8px rgba(0, 0, 0, 0.049),
+  15.6px 9.7px 7.1px rgba(0, 0, 0, 0.057),
+  21.4px 13.3px 12.7px rgba(0, 0, 0, 0.062),
+  31.6px 19.7px 23.8px rgba(0, 0, 0, 0.067),
+  85px 53px 57px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  padding-left: 2%;
+  margin-bottom: 0%;
+  transition: 1s;
+  padding: 0;
+  margin: 0;
+}
+
+.milk:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(-0.1deg);
+}
+
+.tomato{
+    cursor: pointer;
+    box-shadow:
+  5.6px 3.5px 1.6px rgba(0, 0, 0, 0.035),
+  10.7px 6.7px 3.8px rgba(0, 0, 0, 0.049),
+  15.6px 9.7px 7.1px rgba(0, 0, 0, 0.057),
+  21.4px 13.3px 12.7px rgba(0, 0, 0, 0.062),
+  31.6px 19.7px 23.8px rgba(0, 0, 0, 0.067),
+  85px 53px 57px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  padding-left: 2%;
+  margin-bottom: 0%;
+  transition: 1s;
+  padding: 0;
+  margin: 0;
+}
+
+.tomato:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(-0.1deg);
+}
+
+.card-1{
+    background: white;
+    padding-bottom: 2%;
+}
+
 #kinyanjui{
     margin-top: 10px;
 }
@@ -420,6 +593,25 @@ body{
     margin-left: 8%;
     text-decoration: dotted;
     color: #BDAA3D;
+    /* text-decoration: underline 5px #BDAA3D; */
+    cursor: pointer;
+}
+
+.most:after{
+    content: "";
+    position: absolute;
+    background-color: #BDAA3D;
+    height: 5px;
+    width: 0;
+    /* left: 0;
+    bottom: -10px; */
+    transition: 0.3s;
+    /* cursor: pointer; */
+}
+
+.most:hover:after{
+    width: 13%;
+    /* cursor: pointer; */
 }
 
 .new{
@@ -433,12 +625,28 @@ body{
     color: #BDAA3D;;
 }
 
+.newest:after{
+    content: "";
+    position: absolute;
+    background-color: #BDAA3D;
+    height: 5px;
+    width: 0;
+    /* left: 0;
+    bottom: -10px; */
+    transition: 0.3s;
+    /* cursor: pointer; */
+}
+
+.newest:hover:after{
+    width: 13%;
+}
+
 .newest{
     font-size: xx-large;
     margin-top: 80px;
     margin-left: 8%;
-    text-decoration: dotted;
     color: #BDAA3D;
+    cursor: pointer;
 }
 
 .see{
@@ -446,9 +654,9 @@ body{
     height: 80px;
     border: none;
     color: white;
-    background-color: #bdaa3d;;
+    background-color: #f36320;
     border-radius: 4px;
-    box-shadow: inset 0 0 0 0 rgb(208, 212, 199);
+    box-shadow: inset 0 0 0 0 rgb(65, 87, 22);
     transition: ease-out 0.3s;
     font-size: 1.6rem;
     outline: none;
@@ -458,7 +666,7 @@ body{
 }
 
 .see:hover{
-    box-shadow: inset 300px 0 0 0 rgb(201, 201, 152);
+    box-shadow: inset 300px 0 0 0 rgb(158, 138, 25);
     cursor: pointer;
     color: #000;
 }
