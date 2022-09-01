@@ -1,0 +1,27 @@
+{
+    "products":[
+          {
+            "id":1,
+            "name":"carrots",
+            "comment":"Fresh Carrots",
+            "photo":"./images/carrot.jpg",
+            "status":"Kinyanjui farmers Association"
+          },
+
+          {
+            "id":2,
+            "name":"carrots",
+            "comment":"Fresh Carrots",
+            "photo":"./images/carrot.jpg",
+            "status":"Kinyanjui farmers Association"
+          },
+
+          {
+            "id":3,
+            "name":"carrots",
+            "comment":"Fresh Carrots",
+            "photo":"./images/carrot.jpg",
+            "status":"Kinyanjui farmers Association"
+          }
+    ]
+}
