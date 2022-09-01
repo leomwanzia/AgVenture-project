@@ -1,0 +1,76 @@
+{
+    "products":[
+          {
+            "id":1,
+            "name":"carrots",
+            "comment":"Fresh Carrots",
+            "photo":"./images/carrot.jpg",
+            "status":"Kinyanjui farmers Association",
+            "price":"Ksh. 200/kg"
+            
+          },
+
+          {
+            "id":2,
+            "name":"fish",
+            "comment":"Fresh Fish/Tilapia",
+            "photo":"./images/image 5.png",
+            "status":"Mr.Otieno",
+            "price":"Ksh. 5000/bag"
+          },
+
+          {
+            "id":3,
+            "name":"kales",
+            "comment":"Kales SUkuma Wiki",
+            "photo":"./images/kales sukuma wiki.jpg",
+            "status":"Njoki's Farm",
+            "price":"Ksh. 500/kg<"
+          },
+
+          {
+            "id":4,
+            "name":"cereals",
+            "comment":"Cereals",
+            "photo":"./images/cereals.jpg",
+            "status":"Kenya Cereals Board",
+            "price":"Ksh. 50/bunch"
+          },
+
+          {
+            "id":5,
+            "name":"poultry",
+            "comment":"Poultry",
+            "photo":"./images/chicken.jpg",
+            "status":"wafula farm",
+            "price":"Ksh. 700"
+          },
+
+          {
+            "id":6,
+            "name":"rice",
+            "comment":"Rice",
+            "photo":"./images/rice.jpg",
+            "status":"Ahero Irrigation Scheme",
+            "price":"Ksh. 200/kg<"
+          },
+
+          {
+            "id":7,
+            "name":"milk",
+            "comment":"Milk Products",
+            "photo":"./images/dairy farm.jpg",
+            "status":"Korir Dairy Farm",
+            "price":"Ksh. 70/litre"
+          },
+
+          {
+            "id":8,
+            "name":"tomato",
+            "comment":"Fresh Tomatoes",
+            "photo":"/images/Rectangle 9.png",
+            "status":"TZ Farmers Association",
+            "price":"Ksh. 5000/crate"
+          }
+    ]
+}
