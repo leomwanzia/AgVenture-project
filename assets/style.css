@@ -649,27 +649,6 @@ body{
     cursor: pointer;
 }
 
-.see{
-    width: 200px;
-    height: 80px;
-    border: none;
-    color: white;
-    background-color: #f36320;
-    border-radius: 4px;
-    box-shadow: inset 0 0 0 0 rgb(65, 87, 22);
-    transition: ease-out 0.3s;
-    font-size: 1.6rem;
-    outline: none;
-    margin-top: 70px;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-.see:hover{
-    box-shadow: inset 300px 0 0 0 rgb(158, 138, 25);
-    cursor: pointer;
-    color: #000;
-}
 
 /* .line{
     
@@ -686,107 +665,7 @@ body{
     
 } */
 
-.efficient{
-    display: flex;
-    flex-direction: row;
-    font-size: xx-large;
-    font-weight: 500;
-    justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: -50px;
-}
 
-.say{
-    font-size: xx-large;
-    margin-top: 70px;
-    margin-bottom: 100px;
-    padding-left: 30px;
-    color: #8BA17F;
-}
-
-.name{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.card {
-    box-shadow:
-    5.6px 3.5px 1.6px rgba(0, 0, 0, 0.035),
-    10.7px 6.7px 3.8px rgba(0, 0, 0, 0.049),
-    15.6px 9.7px 7.1px rgba(0, 0, 0, 0.057),
-    21.4px 13.3px 12.7px rgba(0, 0, 0, 0.062),
-    31.6px 19.7px 23.8px rgba(0, 0, 0, 0.067),
-    85px 53px 57px rgba(0, 0, 0, 0.07);
-    max-width: 440px;
-    padding: 40px;
-    margin-bottom: 120px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    cursor: pointer;
-}
-
-.card:hover{
-    cursor: pointer;
-    transform: scale(1.2) rotate(-0.1deg);
-    transition: 1s;
-}
-
-.card-title {
-    margin-top: 24px;
-    margin-bottom: 24px;
-    color: rgb(195, 195, 154);
-    font-size: 32px;
-}
-
-#card-title-middle {
-    margin-bottom: 50px;
-}
-
-.star {
-    width: 240px;
-}
-
-.person-name {
-    font-size: 20px;
-    color: white;
-}
-
-#read{
-    width: 200px;
-    height: 80px;
-    color: white;
-    border: none;
-    /* background-color: #f36320;
-    border-radius: 4px;
-    box-shadow: inset 300px 0 0 0 0 rgb(65, 87, 22); */
-    background-color: #bdaa3d;
-    border-radius: 4px;
-    box-shadow: inset 0 0 0 0 rgb(208, 212, 199);
-    transition: ease-out 0.3s;
-    font-size: 1.6rem;
-    outline: none;
-    margin-top: 70px;
-    font-weight: 600;
-    cursor: pointer;
-    margin-bottom: 100px;
-    margin-top: 1px;
-    margin-right: 100px;
-    float: right;
-}
-
-#read:hover{
-    /* box-shadow: inset 300px 0 0 0 rgb(158, 138, 25);
-    cursor: pointer;
-    color: #000; */
-    box-shadow: inset 300px 0 0 0 rgb(201, 201, 152);
-    cursor: pointer;
-    color: #000;
-
-}
 
 
 .subscribe{
