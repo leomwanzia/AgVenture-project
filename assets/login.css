@@ -1,18 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
 }
+
+/* body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 0px;
+    background: beige;
+} */
 
 body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-bottom: 120px;
-    background: beige;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #18332F;
 }
 
-nav{
+.container{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 5px 10px black(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container .forms{
+    width: 200%;
+    display: flex;
+    height: 440px;
+    align-items: center;
+    transition: height 0.2s ease;
+}
+
+.container.active .login{
+    /* height: 600px; */
+    margin-left: -50%;
+}
+
+.container .form{
+    padding: 30px;
+    width: 50%;
+    transition: margin-left 0.18s ease;
+}
+
+.container.active .login{
+    /* height: 600px; */
+    margin-left: -50%;
+    opacity: 0;
+    transition: margin-left 0.18s ease, opacity 0.15s ease;
+}
+
+.container .signup{
+    opacity: 0;
+    transition: opacity 0.09s ease;
+}
+
+.container.active .signup{
+    /* height: 600px; */
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+.container.active .forms{
+    height: 600px;
+}
+
+
+.container .form .title{
+    font-size: 27px;
+    font-style: 600;
+    position: relative;
+}
+
+.form .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 32px;
+    background-color: #18332F;
+    border-radius: 25px;
+}
+
+.form .input-field{
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+.input-field input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    border-bottom: 2px solid rgb(214, 214, 210);
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.input-field input:is(:focus, :valid){
+    border-bottom-color: #18332F;
+}
+
+.input-field i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: grey;
+    font-size: 23px;
+}
+
+.input-field input:is(:focus, :valid) ~ i{
+    color: #18332F;
+}
+
+.input-field i.icon{
+    left: 0;
+}
+
+.input-field i.showHidePw{
+    right: 0;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.form .checkbox-test{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.checkbox-test .checkbox-content{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-content input{
+    accent-color: #18332F;
+    margin: 0 8px -2px 4px;
+}
+
+.form .text{
+    color: #333;
+    font-size: 14px;
+}
+
+.form a.text{
+    color: rgb(102, 131, 15);
+    text-decoration: none;
+}
+
+.form a:hover{
+    text-decoration: underline;
+}
+
+.form .button{
+    margin-top: 35px;
+}
+
+.form .button input{
+    border: none;
+    background-color: #18332F;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button input:hover{
+    background-color: #18332F;
+}
+
+.form .login-signup{
+    margin-top: 30px;
+    text-align: center;
+}
+/* nav{
     background-color: #18332F;
     height: 80px;
     width: 100%;
@@ -61,7 +243,7 @@ nav ul li a{
 a.active,a:hover{
     transition: .3s;
     border-bottom: #f7f4f1;
-    /* outline: #18332F; */
+    outline: #18332F;
     background: #bdaa3d;
 }
 
@@ -77,4 +259,4 @@ a.active,a:hover{
 
 #check{
     display: none;
-}
+} */
