@@ -194,7 +194,7 @@ body{
     margin-top: 30px;
     text-align: center;
 }
-/* nav{
+nav{
     background-color: #18332F;
     height: 80px;
     width: 100%;
@@ -202,8 +202,10 @@ body{
     z-index: 20;
     padding-left: 5%;
     padding-right: 9%;
-    padding-top: 0.5%;
+    padding-top: 0px;
+    margin-top: 0%;
     z-index: 20;
+    margin-bottom: 850px;
 }
 
 
@@ -259,4 +261,4 @@ a.active,a:hover{
 
 #check{
     display: none;
-} */
+}
