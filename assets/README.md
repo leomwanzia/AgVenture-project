@@ -1,5 +1,4 @@
-# Agventure-project
-A project about agricultural services offered and the farm produce available.
+
 
 # Portfolio
 #### By Leo Mwanzia
